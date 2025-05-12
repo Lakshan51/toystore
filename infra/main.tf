@@ -18,6 +18,13 @@ provider "aws" {
 resource "aws_instance" "example" {
   ami           = "ami-12345678"  # Replace with the desired AMI ID
   instance_type = var.instance_type  # Use the instance_type variable
+  subnet_id     = var.subnet_id  # Reference a custom subnet
+
+  monitoring = true  # Enable detailed monitoring
+
+  metadata_options {
+    http_tokens = "required"  # Enforce IMDSv2
+  }
 
   tags = {
     Name = "MyFirstEC2Instance"
