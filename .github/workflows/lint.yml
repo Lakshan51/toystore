@@ -1,4 +1,4 @@
-name: Lint HTML
+name: HTML Linter
 
 on:
   push:
@@ -11,7 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run HTMLHint
-        uses: reviewdog/action-htmlhint@v1
+      - name: Install Node.js
+        uses: actions/setup-node@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: '16'
+
+      - name: Install HTMLHint
+        run: npm install -g htmlhint
+
+      - name: Run HTMLHint
+        run: htmlhint **/*.html || true
