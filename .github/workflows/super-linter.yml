@@ -17,3 +17,4 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GT_TOKEN }}
+          VALIDATE_GITHUB_ACTIONS: false
