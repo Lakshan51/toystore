@@ -1,4 +1,4 @@
-## Pricing Strategy
+# Pricing Strategy
 
 - Model: One-time purchase
 - Price: $15 per toy

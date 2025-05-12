@@ -1,4 +1,4 @@
-## Competitor Analysis – Online Toy Store
+# Competitor Analysis – Online Toy Store
 
 We analyzed 3 major competitors in the online toy retail space using tools like G2, Crunchbase, and SimilarWeb.
 
@@ -14,11 +14,11 @@ We analyzed 3 major competitors in the online toy retail space using tools like 
 
 ---
 
-## Insights:
+## Insights
 - Customers like **fast delivery**, **filters**, and **mobile-friendly designs**
 - Pain points include **too much choice**, **slow checkout**, and **limited payment options**
 
-## What We Will Do Differently:
+## What We Will Do Differently
 - Curated toy selection (less confusion)
 - Fast delivery focus
 - Mobile-first shopping

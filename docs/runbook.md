@@ -1,4 +1,4 @@
-# Runbook – Toy Store Website
+# Runbook – Toy Store Site
 
 ## What to do if site is down
 
